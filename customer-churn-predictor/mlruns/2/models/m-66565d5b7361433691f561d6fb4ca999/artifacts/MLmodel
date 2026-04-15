@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/acer/Customer churn predictor/customer-churn-predictor/mlruns/2/models/m-66565d5b7361433691f561d6fb4ca999/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-66565d5b7361433691f561d6fb4ca999
+model_size_bytes: 307133
+model_uuid: m-66565d5b7361433691f561d6fb4ca999
+prompts: null
+run_id: 942aa3ba328e4703bf0a457b8ffb9c96
+utc_time_created: '2026-04-15 17:07:33.660839'
