@@ -1,4 +1,4 @@
-cat << 'EOF' > README.md
+
 # 📊 Customer Churn Prediction Pipeline
 
 This project builds an end-to-end machine learning pipeline to predict customer churn using the Telco dataset. It includes preprocessing, hyperparameter tuning, model training, evaluation, explainability, and experiment tracking.
